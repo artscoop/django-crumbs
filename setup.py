@@ -5,7 +5,7 @@ setup(
     version=__import__('crumbs').__version__,
     author='Caktus Consulting Group',
     author_email='solutions@caktusgroup.com',
-    include_package_data=True,
+    include_package_data=False,
     packages=['crumbs'],
     package_dir={'crumbs':'crumbs'},
     package_data={'crumbs': ['crumbs/*/*.*']},
