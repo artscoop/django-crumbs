@@ -6,7 +6,7 @@ setup(
     author='Caktus Consulting Group',
     author_email='solutions@caktusgroup.com',
     include_package_data=False,
-    packages=['crumbs'],
+    packages=['crumbs', 'crumbs.templatetags', 'crumbs.templates'],
     package_dir={'crumbs':'crumbs'},
     package_data={'crumbs': ['crumbs/*/*.*']},
     exclude_package_data={'': ['.gitignore', '*.sql', '*.pyc']},
