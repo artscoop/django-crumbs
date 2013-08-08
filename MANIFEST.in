@@ -1,5 +1,1 @@
-exclude .gitignore
-include README.rst
-include LICENSE.txt
-recursive-include crumbs/templates *
-
+ 
