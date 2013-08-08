@@ -10,7 +10,7 @@ setup(
     package_dir={'crumbs':'crumbs'},
     package_data={'crumbs': ['crumbs/*/*.*']},
     exclude_package_data={'': ['.gitignore', '*.sql', '*.pyc']},
-    url='http://github.com/caktus/django-crumbs/',
+    url='http://github.com/artscoop/django-crumbs/',
     license='BSD',
     description='A pluggable Django app for adding breadcrumbs to your project. ',
     classifiers=[
