@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+print find_packages()
 setup(
     name='django-crumbs',
     version=__import__('crumbs').__version__,
