@@ -8,7 +8,6 @@ setup(
     include_package_data=False,
     packages=['crumbs', 'crumbs.templatetags', 'crumbs.tests'],
     package_data={'': ['README.rst'], 'crumbs': ['templates/*.*']},
-    exclude_package_data={'': ['*']},
     url='http://github.com/artscoop/django-crumbs/',
     license='BSD',
     description='A pluggable Django app for adding breadcrumbs to your project. ',
