@@ -8,7 +8,7 @@ setup(
     include_package_data=False,
     packages=['crumbs', 'crumbs.templatetags', 'crumbs.tests'],
     package_dir={'crumbs':'crumbs'},
-    package_data={'': ['README.rst'], 'crumbs': ['crumbs/templates/*.*']},
+    package_data={'': ['README.rst', 'crumbs/templates/*.*'], 'crumbs': ['crumbs/templates/*.*']},
     exclude_package_data={'': ['*']},
     url='http://github.com/artscoop/django-crumbs/',
     license='BSD',
