@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-print find_packages()
 setup(
     name='django-crumbs',
     version=__import__('crumbs').__version__,
@@ -8,6 +7,8 @@ setup(
     author_email='solutions@caktusgroup.com',
     include_package_data=True,
     packages=find_packages(),
+    package_dir={'crumbs':'crumbs'},
+    package_data={'crumbs': ['crumbs/*/*.*']},
     exclude_package_data={'': ['*.sql', '*.pyc']},
     url='http://github.com/caktus/django-crumbs/',
     license='BSD',
