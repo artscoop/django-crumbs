@@ -7,7 +7,7 @@ setup(
     author_email='solutions@caktusgroup.com',
     include_package_data=False,
     packages=['crumbs', 'crumbs.templatetags', 'crumbs.tests'],
-    package_data={'': ['README.rst'], 'crumbs': ['templates/*.*']},
+    package_data={'': ['README.rst'], 'crumbs': ['templates/*/*']},
     url='http://github.com/artscoop/django-crumbs/',
     license='BSD',
     description='A pluggable Django app for adding breadcrumbs to your project. ',
